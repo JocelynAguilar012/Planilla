@@ -125,6 +125,48 @@ function LayoutAdmin(props) {
                                     </Link>
                                 </MENUS.Item>
                             </MENUS>
+                            
+
+                          <MENUS theme="dark"
+                                mode="inline"
+                                defaultSelectedKeys={[location.pathname]}>
+
+                                    <MENUS.Item key="/admin/Formulas">
+                                    <Link to={"/admin/Formulas"}>
+                                        <UserOutlined></UserOutlined>
+                                        <span className='label_menu'>Formulas</span>
+                                    </Link>
+                                </MENUS.Item>
+
+                          </MENUS>
+
+                          <MENUS theme="dark"
+                                mode="inline"
+                                defaultSelectedKeys={[location.pathname]}>
+
+                                    <MENUS.Item key="/admin/users">
+                                    <Link to={"/admin/users"}>
+                                        <UserOutlined></UserOutlined>
+                                        <span className='label_menu'>formulas time/amount</span>
+                                    </Link>
+                                </MENUS.Item>
+
+                          </MENUS>
+
+                          <MENUS theme="dark"
+                                mode="inline"
+                                defaultSelectedKeys={[location.pathname]}>
+
+                                    <MENUS.Item key="/admin/users">
+                                    <Link to={"/admin/users"}>
+                                        <UserOutlined></UserOutlined>
+                                        <span className='label_menu'>spreadsheets</span>
+                                    </Link>
+                                </MENUS.Item>
+
+                          </MENUS>
+
+                          
 
                         </Sider>
                         <Layout className="site-layout">
