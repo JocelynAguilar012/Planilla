@@ -116,7 +116,7 @@ function LayoutAdmin(props) {
                             <MENUS
                                 theme="dark"
                                 mode="inline"
-                                defaultSelectedKeys={[location.pathname]}
+                                defaultSelectedKeys={"/admin/users"}
                             >
                                 <MENUS.Item key="/admin/users">
                                     <Link to={"/admin/users"}>

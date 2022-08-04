@@ -32,6 +32,11 @@ const routes = [
             exact: true
         },
         {
+            path: "/admin",
+            component: PageAdmnUsers,
+            exact: true
+        },
+        {
             path: "/admin/Formulas",
             component: Formulas,
             exact: true
