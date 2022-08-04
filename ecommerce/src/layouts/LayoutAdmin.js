@@ -144,8 +144,8 @@ function LayoutAdmin(props) {
                                 mode="inline"
                                 defaultSelectedKeys={[location.pathname]}>
 
-                                    <MENUS.Item key="/admin/users">
-                                    <Link to={"/admin/users"}>
+                                    <MENUS.Item key="/admin/time-amount">
+                                    <Link to={"/admin/time-amount"}>
                                         <UserOutlined></UserOutlined>
                                         <span className='label_menu'>formulas time/amount</span>
                                     </Link>

@@ -14,6 +14,7 @@ import PageHome from '../pages/Home/Home';
 
 import PageContact from '../pages/Contact/Contact';
 import  {Formulas}  from '../pages/formulas/Formulas';
+import { TimeAmont } from '../pages/formulas/TimeAmont'
 //agregamos todas las rutas que estaran interactuando---------------
 
 const routes = [
@@ -33,6 +34,11 @@ const routes = [
         {
             path: "/admin/Formulas",
             component: Formulas,
+            exact: true
+        },
+        {
+            path: "/admin/time-amount",
+            component: TimeAmont,
             exact: true
         },
         {
