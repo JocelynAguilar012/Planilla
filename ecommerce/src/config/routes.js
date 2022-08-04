@@ -30,6 +30,11 @@ const routes = [
             exact: true
         },
         {
+            path: "/admin",
+            component: PageAdmnUsers,
+            exact: true
+        },
+        {
             path: "/admin/users",
             component: PageAdmnUsers,
             exact: true
