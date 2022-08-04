@@ -1,0 +1,99 @@
+#components-layout-demo-fixed .logo {
+    float: left;
+    width: 120px;
+    height: 31px;
+    margin: 16px 24px 16px 0;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+
+.Style_tabs{
+    text-align: center;
+    align-items:center;
+    width: 100%;
+}
+.header_main_logo {
+    height: 70px;
+    background-color: #FFD966;
+    border: solid rgb(87, 135, 248);
+}
+
+.logo_principal {
+    text-align: left;
+    float: left;
+
+    img {
+        width: 150px;
+        height: 60px;
+    }
+
+}
+
+.close_sing {
+    text-align: right;
+
+}
+.tabpane_login{
+    width: 400px;
+    padding: 30px;
+    border-left: 2px inset rgb(87, 135, 248);
+    border-right: 2px inset rgb(87, 135, 248);
+    border-top: 2px inset rgb(87, 135, 248);
+    border-bottom: 2px inset rgb(87, 135, 248);
+
+    background-color: #ffffff;
+    opacity: 0.9;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.singn_layout{
+  
+  background-image: url("../../assets/img/jpg/Waves_post4.jpg");
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  background-size: cover;
+
+}
+.header_logos{
+
+    float: left;
+    img{
+        width: 200px;
+        height: 70px;
+    }
+
+}
+.header_main{
+    background-color: black;
+    margin: 0%;
+    padding: 0%;
+    height: 70px;
+
+}
+.header_contenido{
+    text-align: right;
+    padding: 5px;
+}
+
+.logo_login_main{
+    font-size: 10px;
+    border-left: 2px inset rgb(0, 0, 0);
+    border-right: 2px inset rgb(0, 0, 0);
+    border-top: 2px inset rgb(0, 0, 0);
+    border-bottom: 2px inset rgb(0, 0, 0);
+    background-color: #ffea31;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+
+}
+.Button_REGISTER{
+    background-color: #ffea31;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}

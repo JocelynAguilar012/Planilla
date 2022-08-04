@@ -1,0 +1,6 @@
+primero instalar 
+yarn add antd
+copiamos import 'antd/dist/antd.css';
+en index.js
+
+

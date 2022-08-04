@@ -1,0 +1,169 @@
+#components-layout-demo-fixed .logo {
+    float: left;
+    width: 120px;
+    height: 31px;
+    margin: 16px 24px 16px 0;
+    background: rgba(255, 255, 255, 0.2);
+  }
+  .Title{
+    font-size: 60px;
+    color: #ffffff;
+	-webkit-text-stroke: 2px #FEC02D;
+ font-family: arial; color: #FEC02D;
+ font-family: Bell MT;
+  }
+  .SubTitle{
+    font-size: 20px;
+    color: #ffffff;
+	-webkit-text-stroke: 2px #FEC02D;
+ font-family: arial; color: #FEC02D;
+ font-family: Bell MT;
+  }
+  .layout-background_main {
+  
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    border-left: 6px inset #ffffff;
+    border-right: 6px inset #ffffff;
+    border-top: 6px inset #ffffff;
+    border-bottom: 6px inset #ffffff;
+padding: 10px;
+
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  .header_main_logo{
+    height: 70px;
+    background-color: #FFD966;
+    border: solid rgb(35, 47, 215) ;
+  }
+  .logo_principal{
+    text-align: left;
+    float: left;
+    img{
+      width: 150px;
+      height: 60px;
+    }
+    
+  }
+  .close_sing{
+text-align: right;  
+
+}
+.layout_main{
+  background-image: url("../assets/img/jpg/Waves_post4.jpg");
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  background-size: cover;
+
+}
+.Carousel_styls{
+}
+
+.contaner_main{
+  width: 100%;
+  height: 200px;
+ margin: 0 auto;
+
+}
+.container_calss1{
+  width: 23%;
+  height: 200px;
+  margin: 10px;
+  float: left;
+  background-color: azure;
+  background-image: url("../assets/img/jpg/man3.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size:contain;
+
+}
+.container_calss2{
+  width: 23%;
+  height: 200px;
+  float: left;
+  margin: 10px;
+  background-color: azure;
+  background-image: url("../assets/img/jpg/man2.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size:contain;
+  
+}
+.container_calss3{ 
+  width: 23%;
+  height: 200px;
+  float: left;
+  margin: 10px;
+  background-color: azure;
+  background-image: url("../assets/img/jpg/man1.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size:contain;
+
+  
+}
+.container_calss4{
+  width: 23%;
+  height: 200px;
+  float: left;
+  margin: 10px;
+  background-color: azure;
+  background-image: url("../assets/img/jpg/man4.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size:contain;
+  
+}
+.container_calss5{
+  width: 23%;
+  height: 200px;
+  margin: 10px;
+  float: left;
+  background-color: azure;
+  background-image: url("../assets/img/jpg/man5.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size:contain;
+
+}
+.container_calss6{
+  width: 23%;
+  height: 200px;
+  float: left;
+  margin: 10px;
+  background-color: azure;
+  background-image: url("../assets/img/jpg/man6.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size:contain;
+  
+}
+.container_calss7{ 
+  width: 23%;
+  height: 200px;
+  float: left;
+  margin: 10px;
+  background-color: azure;
+  background-image: url("../assets/img/jpg/man7.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size:contain;
+
+  
+}
+.container_calss8{
+  width: 23%;
+  height: 200px;
+  float: left;
+  margin: 10px;
+  background-color: azure;
+  background-image: url("../assets/img/jpg/man8.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size:contain;
+  
+}

@@ -1,0 +1,46 @@
+.users{
+    width: 100%;
+    float: left;
+    background-image: url("../../../../assets/img/jpg/img_main.jpg");
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  background-size: cover;
+
+    padding: 10px;
+    border-left: 2px inset rgb(0, 0, 0);
+    border-right: 2px inset rgb(0, 0, 0);
+    border-top: 2px inset rgb(0, 0, 0);
+    border-bottom: 2px inset rgb(0, 0, 0);
+
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.switch_users{
+    text-align: left;
+}
+.avatar_style{
+  width: 70%;
+  height: 70%;
+  
+
+}
+.title_user{
+  font-size: 15px;
+}
+.list_iten-main1{
+  float: left;
+  width: 30%;
+  padding: 20px;
+}
+.list_iten-main2{
+  float: left;
+  text-align: justify;
+  width: 40%;
+}
+.list_iten-main3{
+  float: left;
+  width: 30%;
+}

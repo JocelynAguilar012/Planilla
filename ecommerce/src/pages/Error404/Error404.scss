@@ -1,0 +1,19 @@
+.error404{
+    background-color: rgb(102, 93, 81);
+    height: 300px;
+    margin: 0;
+    padding: 0;
+    background-image: url("../../assets/img/jpg/error404.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:contain;
+    border-left: 5px inset rgb(255, 255, 255);
+    border-right: 5px inset rgb(255, 255, 255);
+    border-top: 5px inset rgb(255, 255, 255);
+    border-bottom: 5px inset rgb(255, 255, 255);
+    background-color: #000000;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
