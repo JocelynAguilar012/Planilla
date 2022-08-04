@@ -157,8 +157,8 @@ function LayoutAdmin(props) {
                                 mode="inline"
                                 defaultSelectedKeys={[location.pathname]}>
 
-                                    <MENUS.Item key="/admin/users">
-                                    <Link to={"/admin/users"}>
+                                    <MENUS.Item key="/admin/spreadsheets">
+                                    <Link to={"/admin/spreadsheets"}>
                                         <UserOutlined></UserOutlined>
                                         <span className='label_menu'>spreadsheets</span>
                                     </Link>

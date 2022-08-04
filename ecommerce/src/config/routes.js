@@ -14,7 +14,8 @@ import PageHome from '../pages/Home/Home';
 
 import PageContact from '../pages/Contact/Contact';
 import  {Formulas}  from '../pages/formulas/Formulas';
-import { TimeAmont } from '../pages/formulas/TimeAmont'
+import { TimeAmont } from '../pages/formulas/TimeAmont';
+import { SpreadSheets } from '../pages/formulas/SpreadSheets'
 //agregamos todas las rutas que estaran interactuando---------------
 
 const routes = [
@@ -44,6 +45,11 @@ const routes = [
         {
             path: "/admin/time-amount",
             component: TimeAmont,
+            exact: true
+        },
+        {
+            path: "/admin/spreadsheets",
+            component: SpreadSheets,
             exact: true
         },
         {
