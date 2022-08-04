@@ -124,33 +124,6 @@ function LayoutAdmin(props) {
                                         <span className='label_menu'>Usuarios</span>
                                     </Link>
                                 </MENUS.Item>
-                                <MENUS.Item key="/admin/registerproducts">
-                                    <Link to={"/admin/registerproducts"}>
-                                        <UploadOutlined></UploadOutlined>
-                                        <span className='label_menu'>Registrar Productos</span>
-                                    </Link>
-                                </MENUS.Item>
-                                <MENUS.Item key="3">
-                                    <Link to={"/admin/show-products"}>
-                                        <PicCenterOutlined ></PicCenterOutlined >
-                                        <span className='label_menu'>Mis ofertas</span>
-                                    </Link>
-                                </MENUS.Item>
-                                <MENUS.Item key="4">
-                                    <Link to={"/admin/catalogue"}>
-                                        <PicRightOutlined ></PicRightOutlined >
-                                        <span className='label_menu'>Catalogo</span>
-                                    </Link>
-                                </MENUS.Item>
-
-                                <MENUS.Item key="5">
-                                    <Link to={"/admin/orders"}>
-                                        <FormOutlined ></FormOutlined >
-                                        <span className='label_menu'>Pedidos</span>
-                                    </Link>
-                                </MENUS.Item>
-
-
                             </MENUS>
 
                         </Sider>
@@ -164,8 +137,6 @@ function LayoutAdmin(props) {
                                 </div>
 
                                 <div className='button_off'>
-                                    <Button variant="dark" href="/admin/carrito"
-                                    ><ShoppingCartOutlined className='carrito' /></Button>
                                     <Button onClick={logoutUser} variant="primary">cerrar sesión</Button>
                                 </div>
 
